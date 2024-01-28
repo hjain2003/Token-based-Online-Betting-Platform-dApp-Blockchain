@@ -1,0 +1,110 @@
+nav{
+    background-color: black;
+    height: 40px;
+    padding: 10px;
+    color: white;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.highlight{
+    padding: 5px;
+    background-color: rgb(124, 124, 124);
+    border-radius: 10px;
+}
+#buy_tokens, #withdraw{
+    background-color: goldenrod;
+    padding: 15px;
+    border: none;
+    cursor: pointer;
+    border-radius: 20px;
+    margin-right: 20px;
+}
+
+#withdraw{
+    background-color: lightblue;
+}
+.buy_box, .withdraw_box{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    height: 180px;
+    width: 300px;
+    border-radius: 10px;
+    padding: 20px;
+    background-color: gold;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    flex-direction: column;
+    margin: auto;
+    z-index: 1000;
+}
+
+.withdraw_box{
+    background-color: lightblue;
+}
+
+.buy_box input, .withdraw_box input{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+.buy_cancel{
+    display: flex;
+    flex-direction: row;
+}
+.buy_cancel button{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+#buyy{
+    background-color: green;
+}
+#cancel{
+    background-color: red;
+}
+
+.reconfigure{
+    padding: 10px;
+    border-radius: 10px;
+    border: none;
+    cursor: pointer;
+    color: white;
+    background-color: purple;
+}
+.main_centre{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    flex-direction: row;   
+}
+.main_centre button{
+    border: none;
+    padding: 10px;
+    border-radius: 10px;
+    cursor: pointer;
+    background-color: red;
+    font-size: 20px;
+}
+h2{
+    margin-top: 20px;
+}
+#pick_winner{
+    background-color: black;
+    color: white;
+}
+#participate{
+    background-color: lightgreen;
+}
